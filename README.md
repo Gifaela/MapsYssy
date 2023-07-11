@@ -6,13 +6,19 @@
 
 <h3>Instalação do json-server para simular um Server local.</h3>
 
-<pre>npm install -g json-server</pre>
+````bash
+npm install -g json-server
+````
 
 <p>Utilização do Server.</p> 
 
 <ol>
 <li>Abrir o localarquivopelocmdou shell e rodar o comando:( example: cd C:\Users\Giu\Downloads\google-maps-marker-from-json-Giulia\google-maps-marker-from\server).</li>
-<pre>json-server --watch db.json</pre>
+  
+````bash
+json-server --watch db.json
+````
+
 <li>Parar o Server:</li>
 <p>Ctrl + C </p>
 </ol>
@@ -52,3 +58,4 @@
 <ul>
 <li><a href="https://developers.google.com/maps/premium/apikey/maps-javascript-apikey?hl=pt-br#:~:text=Acesse%20a%20p%C3%A1gina%20Plataforma%20Google%20Maps%20%3E%20Credenciais.&text=Na%20p%C3%A1gina%20Credenciais%2C%20clique%20em,Clique%20em%20Fechar.">Chave API Google</a></li>
 </ul>
+
